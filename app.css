@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+input {
+    height: 25px;
+    border: 1px solid green;
+
+}
+
+button {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 170px;
+    border: 0;
+    height: 30px;
+    background-color: rgb(188, 235, 235);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(160, 212, 212);
+}
+
+button:disabled {
+    background-color: rgb(237, 239, 239);
+}
